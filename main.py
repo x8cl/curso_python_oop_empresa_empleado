@@ -11,12 +11,7 @@ empleado5 = Empleado("555-5", "Marcos", "Rodriguez", 300, 5000)
 empleado6 = Empleado("666-6", "Marco", "Rodriguez", 10, 25000)
 empleado7 = Empleado("777-7", "marcelo", "Rodriguez", 100)
 
-
-#print(empleado2.sueldo)
-#print(empleado3.email)
-#print(empleado2.email)
-
-#print(empleado1.info_empleado())
+""" #print(empleado1.info_empleado())
 #print(empleado2.info_empleado())
 #print(empleado3.info_empleado())
 #print(empleado4.info_empleado())
@@ -38,12 +33,16 @@ for i in empresa1.empleados:
 
 #print(f"Total de Horas Extra: {empresa1.obtener_total_hrs_extra()}")
 
-#print(f"Total de Sueldos: ${empresa1.obtener_total_sueldos()}")
+#print(f"Total de Sueldos: ${empresa1.obtener_total_sueldos()}") """
 
-""" #Agrego algunos empleados de ejemplo
+#Agrego algunos empleados de ejemplo
 empresa1.contratar_empleado(empleado1)
 empresa1.contratar_empleado(empleado2)
 empresa1.contratar_empleado(empleado3)
+empresa1.contratar_empleado(empleado4)
+empresa1.contratar_empleado(empleado5)
+empresa1.contratar_empleado(empleado6)
+empresa1.contratar_empleado(empleado7)
 
 
 import os
@@ -108,4 +107,4 @@ while opcion > 0:
     opcion = menu()
 
 else:
-    print("Hasta pronto!") """
+    print("Hasta pronto!")
