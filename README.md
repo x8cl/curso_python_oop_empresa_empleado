@@ -1,0 +1,1 @@
+Ejercicio en clases sobre una Empresa, empleados y algunas funciones interesantes para generar el email del empleado "Aplicaciones Full Stack Python Trainee - INACAP - 2021"
